@@ -22,5 +22,4 @@ Kontrol noktaları ve parametre değerleri kullanarak Bézier yüzeyindeki nokta
 ## Örnek
 Kod, Bézier yüzeyindeki iki noktayı (`P1` ve `P2`) hesaplar ve ardından x, y ve z koordinatlarındaki farkları hesaplar.
 
-## Lisans
-Bu proje MIT Lisansı altında lisanslanmıştır.
+
