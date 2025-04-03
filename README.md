@@ -1,2 +1,26 @@
-# Bezier-Surface-Calculation
-A Python-based implementation for calculating Bézier surface points using control points and parametric values. This project demonstrates how to compute 3D points on a Bézier surface and calculate the differences (delta values) between two surface points. It can be extended for 3D modeling and graphics applications.
+# Bezier Yüzeyi Hesaplama
+
+## Açıklama
+Kontrol noktaları ve parametre değerleri kullanarak Bézier yüzeyindeki noktaları hesaplamak için Python tabanlı bir uygulamadır. Bu proje, Bézier yüzeyindeki 3D noktaları hesaplamayı ve iki yüzey noktası arasındaki farkları (delta değerlerini) nasıl hesaplayacağınızı gösterir. 3D modelleme ve grafik uygulamalarına genişletilebilir.
+
+## Özellikler
+- Verilen kontrol noktaları ve u, w parametreleri için Bézier yüzeyi noktalarını hesaplar.
+- İki yüzey noktası arasındaki farkları (delta) hesaplar.
+- Bézier yüzeyi hesaplamalarında Bernstein polinomlarının kullanımını gösterir.
+
+## Gereksinimler
+- Python 3.x
+- NumPy kütüphanesi
+
+## Çalıştırma
+1. Depoyu yerel makinenize klonlayın.
+2. Gerekli bağımlılıkları yüklemek için şu komutu çalıştırın:
+```pip install numpy```
+
+3. `bezier_surface.py` dosyasını çalıştırarak sonuçları görün.
+
+## Örnek
+Kod, Bézier yüzeyindeki iki noktayı (`P1` ve `P2`) hesaplar ve ardından x, y ve z koordinatlarındaki farkları hesaplar.
+
+## Lisans
+Bu proje MIT Lisansı altında lisanslanmıştır.
